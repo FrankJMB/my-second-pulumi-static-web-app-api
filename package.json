@@ -2,8 +2,7 @@
     "name": "t2StaticWebAppApi",
     "main": "index.ts",
     "devDependencies": {
-        "@types/node": "^14.11.1",
-        "typescript": "^5.0.0"
+        "@types/node": "^14.11.1"
     },
     "dependencies": {
         "@pulumi/azure-native": "^1.0.0",
