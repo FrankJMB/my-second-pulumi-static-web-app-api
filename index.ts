@@ -19,7 +19,7 @@ const mySecondStaticWebAppApi = new azure_native.web.StaticSite("mySecondStaticW
         appArtifactLocation: "",
         appLocation: "/src",
     },
- //   enterpriseGradeCdnStatus: azure_native.web.EnterpriseGradeCdnStatus.Disabled,
+    enterpriseGradeCdnStatus: azure_native.web.EnterpriseGradeCdnStatus.Disabled,
     location: "West Europe",
     name: "my-second-static-web-app-api",
     provider: "GitHub",
