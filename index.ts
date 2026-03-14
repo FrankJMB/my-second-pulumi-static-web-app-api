@@ -2,7 +2,7 @@ import * as pulumi from "@pulumi/pulumi";
 import * as azure_native from "@pulumi/azure-native";
 import * as resources from "@pulumi/azure-native/resources";
 
-// update ! 
+// update !! 
 
 const rgMySecondStaticWebAppApi = new azure_native.resources.ResourceGroup("rgMySecondStaticWebAppApi", {
     location: "westeurope",
