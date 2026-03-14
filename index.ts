@@ -23,7 +23,7 @@ const mySecondStaticWebAppApi = new azure_native.web.StaticSite("mySecondStaticW
     location: "West Europe",
     name: "my-second-static-web-app-api",
     provider: "GitHub",
-    repositoryToken: "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",
+    repositoryToken: "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",
     repositoryUrl: "https://github.com/FrankJMB/my-second-static-web-app-api",
     resourceGroupName: rgMySecondStaticWebAppApi.name,
     sku: {
