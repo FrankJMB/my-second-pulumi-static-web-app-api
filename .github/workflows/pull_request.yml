@@ -26,7 +26,7 @@ jobs:
           command: up
           stack-name: dev
 #          github-token: ${{ secrets.GITHUB_TOKEN }}
-          github-token: "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"
+          github-token: "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"
         env:
           PULUMI_ACCESS_TOKEN: ${{ secrets.PULUMI_ACCESS_TOKEN }}
           ARM_CLIENT_ID: ${{ secrets.ARM_CLIENT_ID }}
