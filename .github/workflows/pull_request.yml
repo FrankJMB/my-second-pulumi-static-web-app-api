@@ -25,10 +25,10 @@ jobs:
         with:
           command: up
           stack-name: dev
-#          github-token: ${{ secrets.GITHUB_TOKEN }}
+#         github-token: ${{ secrets.GITHUB_TOKEN }}
 #          github-token: "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"
 #          github-token: "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"
-           github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
         env:
           PULUMI_ACCESS_TOKEN: ${{ secrets.PULUMI_ACCESS_TOKEN }}
           ARM_CLIENT_ID: ${{ secrets.ARM_CLIENT_ID }}
