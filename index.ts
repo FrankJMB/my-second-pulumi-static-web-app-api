@@ -4,6 +4,9 @@ import * as resources from "@pulumi/azure-native/resources";
 
 // update !!! 
 
+const config = new pulumi.Config();
+const repositoryToken = config.requireSecret("repositoryToken");
+
 const rgMySecondStaticWebAppApi = new azure_native.resources.ResourceGroup("rgMySecondStaticWebAppApi", {
     location: "westeurope",
     resourceGroupName: "my-second-static-web-app-api",
@@ -26,6 +29,7 @@ const mySecondStaticWebAppApi = new azure_native.web.StaticSite("mySecondStaticW
 //    repositoryToken: "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",
 //    repositoryToken: "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",
 //    repositoryToken: "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",
+    repositoryToken: repositoryToken,
     repositoryUrl: "https://github.com/FrankJMB/my-second-static-web-app-api",
     resourceGroupName: rgMySecondStaticWebAppApi.name,
     sku: {
