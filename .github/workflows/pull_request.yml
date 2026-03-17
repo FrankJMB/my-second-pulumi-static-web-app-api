@@ -28,11 +28,11 @@ jobs:
 #         github-token: ${{ secrets.GITHUB_TOKEN }}
 #         github-token: "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"
 #         github-token: "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"
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+#          github-token: ${{ secrets.GITHUB_TOKEN }}
         env:
           PULUMI_ACCESS_TOKEN: ${{ secrets.PULUMI_ACCESS_TOKEN }}
           ARM_CLIENT_ID: ${{ secrets.ARM_CLIENT_ID }}
           ARM_CLIENT_SECRET: ${{ secrets.ARM_CLIENT_SECRET }}
           ARM_TENANT_ID: ${{ secrets.ARM_TENANT_ID }}
           ARM_SUBSCRIPTION_ID: ${{ secrets.ARM_SUBSCRIPTION_ID }}
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+#          github-token: ${{ secrets.GITHUB_TOKEN }}
