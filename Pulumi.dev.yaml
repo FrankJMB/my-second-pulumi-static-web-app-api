@@ -1,2 +1,4 @@
 config:
   azure-native:location: westeurope
+  t2StaticWebAppApi:repositoryToken:
+    secure: AAABABEjF1VJw1oc2Z+/ALJbnijv1ejxjkHpY7mQoYsQmUzeQXtghH4U56207iEnrbmmHVyLaLv1HPzcI9jzfv4c9mQsDUcD
