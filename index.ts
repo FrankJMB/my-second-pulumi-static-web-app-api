@@ -2,7 +2,7 @@ import * as pulumi from "@pulumi/pulumi";
 import * as azure_native from "@pulumi/azure-native";
 import * as resources from "@pulumi/azure-native/resources";
 
-// update !!!! 
+// update !!!! check !
 
 const config = new pulumi.Config();
 const repositoryToken = config.requireSecret("repositoryToken");
